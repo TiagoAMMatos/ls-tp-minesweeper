@@ -1,0 +1,31 @@
+#game > div {
+    padding: 0px;
+    background-color: lightgray;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+#game > div.cell-hidden {
+    border-style: outset;
+    border-color: gray;
+    cursor: pointer;
+}
+
+
+#game > div > p {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.cell-number1{color: blue;}
+.cell-number2{color: green;}
+.cell-number3{color: red;}
+.cell-number4{color: darkblue;}
+.cell-number5{color: darkred;}
+.cell-number6{color: darkcyan;}
+.cell-number7{color: black;}
+.cell-number8{color: gray;}
