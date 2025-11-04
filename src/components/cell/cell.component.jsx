@@ -45,7 +45,7 @@ export default function Cell({ gameState, cellData, onLMBClick, onRMBClick }) {
       className={[colorClass, cellState].join(" ")}
       onClick={() => {
         if (gameState !== GameState.Running) return;
-        if (state === CellStates.Shown) return;
+        if (state === CellStates.Shown || state === CellStates.Flagged) return;
         onLMBClick(cellData);
       }}
       onContextMenu={(e) => {
